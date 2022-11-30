@@ -1,0 +1,6 @@
+@media all and (max-width: 768px) {
+    button:hover {
+        color: white;
+        background-color: rgb(113, 143, 113);
+    }
+}
