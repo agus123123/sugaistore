@@ -48,7 +48,7 @@
         left: 34rem;
     }
 }
-@media all and (max-width:500px) {
+@media all and (max-width:575px) {
     .container-fluid button {
         width: 60px;
         float: right;
