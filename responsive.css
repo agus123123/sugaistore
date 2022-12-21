@@ -116,4 +116,8 @@
         height: 90px;
         font-size: 10px;
     }
+    .contact button {
+        height:30px;
+        font-size:13px;
+    }
 }
