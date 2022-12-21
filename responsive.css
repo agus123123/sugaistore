@@ -1,0 +1,119 @@
+@media all and (max-width:1000px) {
+    .navbar-brand {
+        margin-right: 270px;
+        margin-left: 100px;
+    }
+    .home-art p {
+        font-size: 16px;
+        margin-right: 490px;
+        top: 13rem;
+        left: 6rem;
+    }
+    .home-image img {
+        width: 230px;
+        height: 230px;
+        top: 11rem;
+        left: 42rem;
+    }
+    .about-icon {
+        top: 13pc;
+    }
+    .about-icon img {
+        height: 190px;
+        width: 190px;
+    }
+    .about-text {
+        top: 27pc;
+        left: 10.5pc;
+    }
+    .about-founder {
+        top: 15pc;
+        left: 30pc;
+        margin-right: 100px;
+    }
+    .about-founder p {
+        font-size: 17px;
+    }
+    .contact h2 {
+        font-size: 40px;
+    }
+}
+@media all and (max-width:960px) {
+    .home-image img {
+        left: 39rem;
+    }
+}
+@media all and (max-width:925px) {
+    .home-image img {
+        left: 34rem;
+    }
+}
+@media all and (max-width:320px) {
+    .container-fluid button {
+        width: 60px;
+        float: right;
+        display: block;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .home-art p {
+        font-size: 12px;
+        top: 15rem;
+        left: 2rem;
+        margin-right: 2rem;
+    }
+    .home-image img {
+        width: 100px;
+        height: 100px;
+        left: 7rem;
+        top: 6rem;
+    }
+    #about {
+        margin-top: 543px;
+    }
+    .about-icon {
+        top: 7pc;
+        left: 7pc;
+    }
+    .about-icon img {
+        width: 100px;
+        height: 100px;
+    }
+    .about-text {
+        top: 14pc;
+        left: 6.4pc;
+    }
+    .about-text h1 {
+        font-size: 13px;
+    }
+    .about-founder {
+        top: 19pc;
+        left: 2rem;
+        margin-right: 2rem;
+    }
+    .about-founder p {
+        font-size: 12px;
+    }
+    .contact {
+        padding-top: 100px;
+    }
+    .contact h2 {
+        font-size: 20px;
+    }
+    input {
+        width: 70%;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    textarea {
+        width: 70%;
+        height: 90px;
+        font-size: 10px;
+    }
+}
