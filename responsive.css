@@ -69,12 +69,12 @@
     }
     .home-image img {
         width: 100px;
-        height: 100px;
+        height: 100vh;
         left: 9rem;
         top: 6rem;
     }
     #about {
-        top:-2;
+        top:0;
     }
     .about-icon {
         top: 9pc;
