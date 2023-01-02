@@ -58,7 +58,7 @@
         font-size: 20px;
     }
     .circles li {
-    bottom: 120vh;
+    bottom: -120vh;
     }
     .navbar-brand {
         margin-left: 0;
@@ -72,7 +72,7 @@
     }
     .home-image img {
         width: 100px;
-        height: 100vh;
+        height: 100px;
         left: 9rem;
         top: 6rem;
     }
