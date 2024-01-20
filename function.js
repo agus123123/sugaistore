@@ -2,6 +2,11 @@ $(document).ready(function(){
     $("#selamatDatangModal").modal('show');
 });
 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z1LHQQ9551');
 function hubungiAdmin() {
     var nomorAdmin = document.getElementById('hubungiAdmin').value;
     
