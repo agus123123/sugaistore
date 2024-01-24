@@ -5,35 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pemesanan</title>
     <link rel="icon" href="https://itemku-upload.s3.ap-southeast-1.amazonaws.com/itemku-upload/202257/v3690n7ievts7rgsyfdw.jpg">
-<!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1LHQQ9551"></script>
-<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
-
-<!-- Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!-- Modal Selamat Datang -->
 <div class="modal fade" id="selamatDatangModal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
 
-            <!-- Modal Header -->
             <div class="modal-header">
                 <h4 class="modal-title">Selamat Datang di Sugai Store</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
 
-            <!-- Modal Body -->
             <div class="modal-body">
                 <p>Nikmati kemudahan dan kenyamanan berbelanja diamond untuk Mobile Legend dan Free Fire di Sugai Store. Kami menyediakan berbagai pilihan dengan harga terbaik!</p>
             </div>
 
-            <!-- Modal Footer -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-success" data-dismiss="modal">Oke, Mengerti!</button>
             </div>
@@ -82,6 +74,19 @@
             <label for="harga">HARGA:</label>
             <input type="text" id="harga" name="harga" class="form-control" readonly>
         </div>
+        <div class="form-group">
+            <label for="metode_pembayaran">METODE PEMBAYARAN:</label>
+            <select id="metode_pembayaran" name="metode_pembayaran" class="form-control" required>
+                <option value="bca">BCA</option>
+                <option value="mandiri">MANDIRI</option>
+                <option value="seabank">SEABANK</option>
+                <option value="ovo_dana_gopay">OVO-DANA-GOPAY</option>
+            </select>
+        </div>    
+        <div class="form-group">
+            <label for="kode_pesanan">KODE PESANAN:</label>
+            <input type="text" id="kode_pesanan" name="kode_pesanan" class="form-control" readonly>
+        </div>    
     
         <button type="button" onclick="kirimWhatsApp()" class="btn btn-primary">Kirim Data!</button>
     </form>
